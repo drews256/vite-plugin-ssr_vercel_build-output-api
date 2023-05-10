@@ -1,6 +1,6 @@
-import vue from '@vitejs/plugin-vue'
+import react from '@vitejs/plugin-react'
 import ssr from 'vite-plugin-ssr/plugin'
 
 export default {
-  plugins: [vue(), ssr()]
+  plugins: [react(), ssr()]
 }
